@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+  
+
+
+
+
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background:#f1decd ;  /* backgroung*/
+}
+
+.form-container form{
+   height: 510px;
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.9);
+   background: #eee;    /* form backgroung*/
+   text-align: center;
+   width: 500px;
+   margin: 100px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   margin-bottom: 10px;
+   color:#f3f3f3;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: #f8f7f6;
+   color:#fa9907;
+   text-transform: capitalize;
+   font-size: 22px;
+   font:bold;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: #f38619;
+   color:#fafafa;
+   transform: 4s;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
